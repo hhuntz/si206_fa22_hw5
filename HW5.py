@@ -30,7 +30,7 @@ def find_bio_names(string_list):
     """
     pass
 
-def find_contractions_and_possessives(string_list):
+def find_possessives(string_list):
     """
     This function finds all (real, English language) words with an apostrophe in them
     """
@@ -65,7 +65,7 @@ class TestAllMethod(unittest.TestCase):
     def test_find_bio_names(self):
         pass
 
-    def test_find_contractions_and_possessives(self):
+    def test_find_possessives(self):
         pass
 
     def test_find_section_headings(self):
@@ -79,9 +79,7 @@ class TestAllMethod(unittest.TestCase):
     #    pass
 
 def main():
-    #Feel free run your functions here as well!
-    bios = read_file("best_picture.txt")
-    
+    #Feel free run your functions here as well!    
 
 if __name__ == '__main__':
     main()
